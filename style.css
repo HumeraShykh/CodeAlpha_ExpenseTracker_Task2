@@ -1,0 +1,51 @@
+body{
+    margin-top: 150px;
+    background-color: pink;
+}
+#expense-tracker {
+    width: 300px;
+    margin: 0 auto;
+    font-family: sans-serif;
+  }
+  
+  #expense-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  #expense-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #expense-table th,
+  #expense-table td {
+    padding: 5px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #expense-table th {
+    background-color: #f2f2f2;
+  }
+  
+  #expense-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #expense-table button {
+    background-color: #36bbf4;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  #expense-table button:hover {
+    background-color: #420bda;
+  }
+  button{
+    color: white;
+    background-color: purple;
+  }
